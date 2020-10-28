@@ -32,27 +32,27 @@ export class AppComponent {
 // userData = 'free';
 // console.log(userData + "man");
 //interface lets you create your own datatype or set of 
-interface MyDataType {
-  customerName: String,
-  itemNumbers: number[],
-  isComplete: boolean
-}
+// interface MyDataType {
+//   customerName: String,
+//   itemNumbers: number[],
+//   isComplete: boolean
+// }
 
-let order1: MyDataType;
-order1 = {
-  customerName: 'Oswaldo',
-  itemNumbers: [12,34,45],
-  isComplete:true
-}
-//Optional datatypes out of the contract? isComplete?
-interface MyDataType2 {
-  customerName: String,
-  itemNumbers: number[],
-  isComplete?: boolean
-}
+// let order1: MyDataType;
+// order1 = {
+//   customerName: 'Oswaldo',
+//   itemNumbers: [12,34,45],
+//   isComplete:true
+// }
+// //Optional datatypes out of the contract? isComplete?
+// interface MyDataType2 {
+//   customerName: String,
+//   itemNumbers: number[],
+//   isComplete?: boolean
+// }
 
-let own: MyDataType2;
-own = {
-  customerName: 'Oswaldo',
-  itemNumbers:[23]
-}
+// let own: MyDataType2;
+// own = {
+//   customerName: 'Oswaldo',
+//   itemNumbers:[23]
+// }
